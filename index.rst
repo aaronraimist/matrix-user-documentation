@@ -11,7 +11,7 @@ Welcome to Matrix User Documentation
    Glossary
 
 
-Matrix User Documentation is a *community* run project that hopes to document `Matrix <https://matrix.org/>`_ from a user's perspective. This is not official documentation from the matrix.org core team.
+Matrix User Documentation is a *community* run project that hopes to document `Matrix <https://matrix.org/>`_ from a user's perspective. This is not official documentation from the Matrix core team.
 
 
 Let's dive in
