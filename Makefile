@@ -14,7 +14,12 @@ help:
 .PHONY: help Makefile
 
 livehtml:
-	sphinx-autobuild . -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html --ignore ".git/*"
+	sphinx-autobuild . -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html --ignore ".git/*","_build/*"
+
+# github:
+# 	@make html
+# 	@mkdir docs
+# 	@cp -a _build/html/. ../docs
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
