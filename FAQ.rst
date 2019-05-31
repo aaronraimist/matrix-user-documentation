@@ -1,6 +1,5 @@
-===================================
- Frequently Asked Questions (FAQs)
-===================================
+Frequently Asked Questions (FAQs)
+=================================
 
 If your question isn't answered here try the `Matrix.org FAQ
 <https://matrix.org/docs/guides/faq>`_ or the `Matrix Knowledge Base
@@ -17,13 +16,54 @@ Matrix
 What is federation?
 -------------------
 
-https://en.wikipedia.org/wiki/Federation_(information_technology)
+Federation means that all Matrix servers are able to send messages to
+each other. It means that it doesn't matter if you join a large public
+server or self host, you can still talk to anyone on any other server.
+
+See also `Wikipedia's article on federation
+<https://en.wikipedia.org/wiki/Federation_(information_technology)>`_.
+Note that the dictionary definiton of federation often reads something
+like "a group of states with a central government...". This is not how
+the term federation is used when talking about computers. Matrix has no
+central server. Matrix.org is just like any other server that speaks the
+Matrix protocol, it has no special powers, authority, or meaning.
+
+Where are rooms stored?
+-----------------------
+
+Rooms are stored on all homeservers that participate in the room. If one
+server goes down, it only affects the users that have their accounts on
+that server. For example if matrix.org goes down, matrix.org users won't
+be able to talk but everyone else in :code:`#matrix:matrix.org` can
+continue talking. When matrix.org comes back up its users can start
+talking again and will be able to see the messages that were sent while
+it was down.
+
+But the room ID you say. "It is :code:`!QtykxKocfZaZOUrTwp:matrix.org`.
+You see, right there it says matrix.org, that means that is a matrix.org
+room! This is centralized after all!" No that's not what that means.
+Matrix rooms need a unique identifier since room aliases can be
+reassigned at any time. That is just an unique room ID. It is a
+federated system, so to ensure that the ID is unique the room ID
+includes the name of the server that created it. It is possible that the
+server mentioned in the room ID may not even exist anymore. The room
+still works just fine.
 
 What client should I use?
 -------------------------
 
 What is the difference between Matrix and Riot?
 -----------------------------------------------
+
+What are room tags?
+-------------------
+
+You can use room tags to organize your rooms. The default tags are
+called favorites and low priority. In Riot, you can mark a room as a
+favorite and it then be moved to the favorites section. Rooms can have
+multiple tags but some clients (namely Riot) will only put a room in one
+section. :term:`Quaternion` and https://tags.t2bot.io are two clients
+that support creating room tags.
 
 What are room versions? What does room version 4 (or 5) give me?
 ----------------------------------------------------------------

@@ -17,9 +17,10 @@ minutes, it will give you a 100% correct Matrix installation with very
 little effort. You'll get everything you need: :term:`Synapse` (the
 reference Matrix homeserver) configured to use a PostgresQL database,
 coturn for audio calls, :term:`Riot (a nice web client)`, nginx, a mail
-server, and much more but you can easily disable any of those. If you
-find an easier way to install Synapse, call me. Until then, this is the
-easiest.
+server, and much more but you can easily disable any of those. This way
+of setting Synapse up also has some of the best documentation anywhere
+in the Matrix community. If you find an easier way to install Synapse,
+call me. Until then, this is the easiest.
 
 Official Installation Guide
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

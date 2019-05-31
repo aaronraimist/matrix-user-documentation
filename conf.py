@@ -95,7 +95,7 @@ html_theme_options = {
     "github_banner": True,
     "github_button": False,
     #"github_type": "star",
-    "donate_url": "https://liberapay.com/aaronraimist/donate",
+    #"donate_url": "https://liberapay.com/aaronraimist/donate",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

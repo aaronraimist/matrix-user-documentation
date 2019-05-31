@@ -10,11 +10,18 @@ BUILDDIR      = _build
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-
 .PHONY: help Makefile
 
 livehtml:
 	sphinx-autobuild . -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html --ignore ".git/*","_build/*"
+
+
+LINKCHECKDIR  = build/linkcheck
+.PHONY: checklinks
+	checklinks:
+	$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(LINKCHECKDIR)
+	@echo
+	@echo "Check finished. Report is in $(LINKCHECKDIR)."
 
 # github:
 # 	@make html
