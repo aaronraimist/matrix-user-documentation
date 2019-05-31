@@ -1,5 +1,3 @@
-.. include:: global.rst
-
 Matrix User Documentation
 =========================
 
