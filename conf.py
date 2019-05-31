@@ -85,7 +85,7 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-    "logo": "Made for Matrix - Preferred.svg",
+    "logo": "images/Made for Matrix - Preferred.svg",
     "logo_name": True,
     "logo_text_align": "center",
     "sidebar_width": "250px",

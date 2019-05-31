@@ -26,8 +26,10 @@ Let's dive in
 Where are you in the process of learning about :term:`Matrix`?
 
 #. :doc:`What even is Matrix? <1-what-is-matrix>`
-#. :doc:`Okay, that sounds pretty cool but how do I try it? <2-getting-started>`
-#. :doc:`I've been using Riot for a while, what else is out there? <3-clients>`
+#. :doc:`Okay, that sounds pretty cool but how do I try it?
+   <2-getting-started>`
+#. :doc:`I've been using Riot for a while, what else is out there?
+   <3-clients>`
 #. :doc:`I'm a pro. Where should I look next? <4-whats-next>`
 
 ------------------

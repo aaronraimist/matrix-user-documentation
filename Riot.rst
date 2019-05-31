@@ -1,5 +1,5 @@
 `Riot <https://about.riot.im>`_
-=====================================================
+================================
 
 Riot could be considered the flagship Matrix client. It is made by many
 of the same people that write the Matrix spec but it is just one Matrix
@@ -11,19 +11,21 @@ more using `Try Matrix Now
 .. image:: _static/images/Riot.png
 
 :term:`Riot Web / Desktop`
--------------------------
+--------------------------
 
 Riot web is...
 
 :term:`Riot Android`
-------------
+--------------------
 
 Riot Android is a native Matrix client for Android.
 
 :term:`RiotX`
-~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
-RiotX is the code name for the future version of :term:`Riot Android`. It is a rewrite of Riot Android written in Kotlin and a new radically different UI.
+RiotX is the code name for the future version of :term:`Riot Android`.
+It is a rewrite of Riot Android written in Kotlin and a new radically
+different UI.
 
 What is RiotX
 ^^^^^^^^^^^^^
@@ -35,7 +37,7 @@ it is being developed. It will become Riot Android in the future.
 
 
 :term:`Riot iOS`
----------------
+----------------
 
 Riot iOS is a native Matrix client for iOS.
 
