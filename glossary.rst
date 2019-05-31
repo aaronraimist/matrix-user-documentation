@@ -30,6 +30,7 @@ Glossary
    homeserver
       The homeserver is where your Matrix account lives. Homeservers store your account data and the rooms you participate in.
 
+   Riot
    `Riot Web / Desktop <https://about.riot.im>`_
       Riot Web is...
 

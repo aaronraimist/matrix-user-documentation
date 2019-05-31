@@ -8,7 +8,7 @@ Welcome to Matrix User Documentation
 
    FAQ
    *
-   Glossary
+   glossary
 
 
 Matrix User Documentation is a *community* run project that hopes to
@@ -25,13 +25,12 @@ Let's dive in
 
 Where are you in the process of learning about :term:`Matrix`?
 
-#. What the hell is Matrix?
-#. Okay, that sounds pretty cool but how do I try it?
-#. I've been using Riot for a while, what else is out there?
-#. I'm a pro
+#. :doc:`What even is Matrix? <1-what-is-matrix>`
+#. :doc:`Okay, that sounds pretty cool but how do I try it? <2-getting-started>`
+#. :doc:`I've been using Riot for a while, what else is out there? <3-clients>`
+#. :doc:`I'm a pro. Where should I look next? <4-whats-next>`
 
-
--------------------
+------------------
 
 Indices and tables
 ------------------
