@@ -29,7 +29,7 @@ https://readthedocs.org/projects/matrix-user-documentation/downloads/
 How to contribute
 -----------------
 
-.. bash::
+.. code::
 
    git clone https://github.com/aaronraimist/matrix-user-documentation.git
 
