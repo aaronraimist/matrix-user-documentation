@@ -199,7 +199,7 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 # -- Options for todo extension ----------------------------------------------
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+todo_include_todos = False
 
 linkcheck_ignore = [
     "https://matrix.to*", # doesn't work for some reason

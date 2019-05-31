@@ -13,7 +13,7 @@ help:
 .PHONY: help Makefile
 
 livehtml:
-	sphinx-autobuild . -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html --ignore ".git/*","_build/*","global.rst"
+	sphinx-autobuild . -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html --ignore ".git/*","_build/*","env/*"
 
 
 LINKCHECKDIR  = build/linkcheck
