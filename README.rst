@@ -1,3 +1,5 @@
+.. include:: global.rst
+
 Matrix User Documentation
 =========================
 
@@ -17,7 +19,9 @@ seems to be MIA at the moment.
 
 You can view the most up to date version of the documentation online at
 http://mud.raim.ist/en/latest (for some reason https isn't quite working
-yet). You can also download the documentation in HTML, PDF, or Epub
+yet).
+
+You can also download the documentation in HTML, PDF, or Epub
 formats from:
 https://readthedocs.org/projects/matrix-user-documentation/downloads/
 
@@ -25,11 +29,15 @@ https://readthedocs.org/projects/matrix-user-documentation/downloads/
 How to contribute
 -----------------
 
-.. code::
+.. bash::
 
    git clone https://github.com/aaronraimist/matrix-user-documentation.git
 
-   pip install sphinx sphinx-autobuild doc8
+   cd matrix-user-documentation
+
+   virtualenv -p python3 env
+   source env/bin/activate
+   pip install -r requirements.txt
 
    make livehtml
 
